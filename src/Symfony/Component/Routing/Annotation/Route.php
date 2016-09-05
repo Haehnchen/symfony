@@ -27,7 +27,15 @@ class Route
     private $options = array();
     private $defaults = array();
     private $host;
+
+    /**
+     * @Enum({"HEAD", "GET", "POST", "PUT", "PATCH", "DELETE", "PURGE", "OPTIONS", "TRACE", "CONNECT"})
+     */
     private $methods = array();
+
+    /**
+     * @Enum({"https", "http"})
+     */
     private $schemes = array();
     private $condition;
 

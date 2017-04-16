@@ -50,7 +50,7 @@
         </service>
 
         <service id="validator.email" class="%validator.email.class%">
-            <argument></argument>
+            <argument/>
             <tag name="validator.constraint_validator" alias="Symfony\Component\Validator\Constraints\EmailValidator" />
         </service>
     </services>

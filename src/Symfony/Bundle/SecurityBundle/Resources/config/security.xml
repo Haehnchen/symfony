@@ -89,10 +89,10 @@
         <service id="security.encoder_factory" alias="security.encoder_factory.generic" />
 
         <service id="security.user_password_encoder.generic" class="Symfony\Component\Security\Core\Encoder\UserPasswordEncoder" public="false">
-            <argument type="service" id="security.encoder_factory"></argument>
+            <argument type="service" id="security.encoder_factory"/>
         </service>
 
-        <service id="security.password_encoder" alias="security.user_password_encoder.generic"></service>
+        <service id="security.password_encoder" alias="security.user_password_encoder.generic"/>
 
         <service id="security.user_checker" class="%security.user_checker.class%" public="false" />
 

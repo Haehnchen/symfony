@@ -2,7 +2,7 @@
 <definition>
   <arguments>
     <argument name="argument_name" is_required="1" is_array="0">
-      <description></description>
+      <description/>
       <defaults/>
     </argument>
   </arguments>

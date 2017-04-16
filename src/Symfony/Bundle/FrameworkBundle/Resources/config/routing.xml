@@ -24,7 +24,7 @@
         <parameter key="router_listener.class">Symfony\Component\HttpKernel\EventListener\RouterListener</parameter>
         <parameter key="router.request_context.host">localhost</parameter>
         <parameter key="router.request_context.scheme">http</parameter>
-        <parameter key="router.request_context.base_url"></parameter>
+        <parameter key="router.request_context.base_url"/>
     </parameters>
 
     <services>

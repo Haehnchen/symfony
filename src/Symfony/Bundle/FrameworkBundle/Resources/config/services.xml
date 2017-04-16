@@ -53,7 +53,7 @@
 
         <service id="kernel" synthetic="true" />
 
-        <service id="filesystem" class="%filesystem.class%"></service>
+        <service id="filesystem" class="%filesystem.class%"/>
 
         <service id="file_locator" class="%file_locator.class%">
             <argument type="service" id="kernel" />
